@@ -1,1 +1,32 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><style>.cls-1{fill:#5c6e6d;}.cls-2{fill:#202527;}.cls-3{fill:#93979a;}.cls-4{fill:#3f4347;}.cls-5{fill:#40ace1;}.cls-6{fill:#c5da5b;}.cls-7{fill:#f1b21c;}.cls-8{fill:#ee4660;}.cls-9{fill:#b08fc2;}</style></defs><title>sjmdicon-phone</title><path class="cls-1" d="M48.88,5.87a4.23,4.23,0,0,0-4-3.87H19.13a4.22,4.22,0,0,0-4,3.87V58.13a4.25,4.25,0,0,0,4,3.87H44.87a4.24,4.24,0,0,0,4-3.87Z"/><path class="cls-2" d="M47.94,57.31a4,4,0,0,1-3.75,3.75H19.81a4,4,0,0,1-3.75-3.75V6.69a4,4,0,0,1,3.75-3.75H44.19a4,4,0,0,1,3.75,3.75Z"/><circle class="cls-3" cx="42.78" cy="6.22" r="0.94"/><path class="cls-3" d="M34.81,6.25c0,.26-.12.47-.28.47H29.47c-.16,0-.28-.21-.28-.47s.12-.47.28-.47h5.06C34.69,5.78,34.81,6,34.81,6.25Z"/><rect class="cls-4" x="17.94" y="9.5" width="28.13" height="45"/><rect class="cls-3" x="28.48" y="56.37" width="7.03" height="2.81" rx="0.7"/><rect class="cls-5" x="19.81" y="11.84" width="4.69" height="4.69" rx="0.78"/><rect class="cls-6" x="26.38" y="11.84" width="4.69" height="4.69" rx="0.78"/><rect class="cls-7" x="32.94" y="11.84" width="4.69" height="4.69" rx="0.78"/><rect class="cls-5" x="39.5" y="11.84" width="4.69" height="4.69" rx="0.78"/><rect class="cls-6" x="19.81" y="47.94" width="4.69" height="4.69" rx="0.78"/><rect class="cls-8" x="26.38" y="47.94" width="4.69" height="4.69" rx="0.78"/><rect class="cls-5" x="32.94" y="47.94" width="4.69" height="4.69" rx="0.78"/><rect class="cls-9" x="39.5" y="47.94" width="4.69" height="4.69" rx="0.78"/><rect class="cls-6" x="19.81" y="29.89" width="4.69" height="4.69" rx="0.78"/><rect class="cls-9" x="26.38" y="29.89" width="4.69" height="4.69" rx="0.78"/><rect class="cls-5" x="32.94" y="29.89" width="4.69" height="4.69" rx="0.78"/><rect class="cls-8" x="19.81" y="23.88" width="4.69" height="4.69" rx="0.78"/><rect class="cls-7" x="26.38" y="23.88" width="4.69" height="4.69" rx="0.78"/><rect class="cls-6" x="32.94" y="23.88" width="4.69" height="4.69" rx="0.78"/><rect class="cls-7" x="39.5" y="23.88" width="4.69" height="4.69" rx="0.78"/><rect class="cls-9" x="19.81" y="17.86" width="4.69" height="4.69" rx="0.78"/><rect class="cls-5" x="26.38" y="17.86" width="4.69" height="4.69" rx="0.78"/><rect class="cls-8" x="32.94" y="17.86" width="4.69" height="4.69" rx="0.78"/><rect class="cls-9" x="39.5" y="17.86" width="4.69" height="4.69" rx="0.78"/></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-3{fill:#93979a}.cls-5{fill:#40ace1}.cls-6{fill:#c5da5b}.cls-7{fill:#f1b21c}.cls-8{fill:#ee4660}.cls-9{fill:#b08fc2}
+    </style>
+  </defs>
+  <path d="M49 6a4 4 0 0 0-4-4H19a4 4 0 0 0-4 4v52a4 4 0 0 0 4 4h26a4 4 0 0 0 4-4z" fill="#5c6e6d"/>
+  <path d="M48 57a4 4 0 0 1-4 4H20a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4h24a4 4 0 0 1 4 4z" fill="#202527"/>
+  <circle class="cls-3" cx="43" cy="6" r="1"/>
+  <path class="cls-3" d="M35 6v1h-6V6c0-1 0 0 0 0h6z"/>
+  <path fill="#3f4347" d="M18 10h28v45H18z"/>
+  <rect class="cls-3" x="28" y="56" width="7" height="3" rx="1"/>
+  <rect class="cls-5" x="20" y="12" width="5" height="5" rx="1"/>
+  <rect class="cls-6" x="26" y="12" width="5" height="5" rx="1"/>
+  <rect class="cls-7" x="33" y="12" width="5" height="5" rx="1"/>
+  <rect class="cls-5" x="40" y="12" width="5" height="5" rx="1"/>
+  <rect class="cls-6" x="20" y="48" width="5" height="5" rx="1"/>
+  <rect class="cls-8" x="26" y="48" width="5" height="5" rx="1"/>
+  <rect class="cls-5" x="33" y="48" width="5" height="5" rx="1"/>
+  <rect class="cls-9" x="40" y="48" width="5" height="5" rx="1"/>
+  <rect class="cls-6" x="20" y="30" width="5" height="5" rx="1"/>
+  <rect class="cls-9" x="26" y="30" width="5" height="5" rx="1"/>
+  <rect class="cls-5" x="33" y="30" width="5" height="5" rx="1"/>
+  <rect class="cls-8" x="20" y="24" width="5" height="5" rx="1"/>
+  <rect class="cls-7" x="26" y="24" width="5" height="5" rx="1"/>
+  <rect class="cls-6" x="33" y="24" width="5" height="5" rx="1"/>
+  <rect class="cls-7" x="40" y="24" width="5" height="5" rx="1"/>
+  <rect class="cls-9" x="20" y="18" width="5" height="5" rx="1"/>
+  <rect class="cls-5" x="26" y="18" width="5" height="5" rx="1"/>
+  <rect class="cls-8" x="33" y="18" width="5" height="5" rx="1"/>
+  <rect class="cls-9" x="40" y="18" width="5" height="5" rx="1"/>
+</svg>

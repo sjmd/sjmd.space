@@ -1,1 +1,28 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><style>.cls-1{fill:#7a8084;}.cls-2{fill:#93979a;}.cls-3{fill:#ef5b7a;}.cls-4{fill:#3f4347;}.cls-5{fill:#788187;}.cls-6{fill:#202527;}.cls-7{opacity:0.5;isolation:isolate;}.cls-8{fill:#f4f5f5;}.cls-9{fill:#67c2e7;}</style></defs><title>sjmdicon-camcorder</title><path class="cls-1" d="M31.13,52.81,16.61,11.45s34.67-8.38,34.67,9.44V47.46a2,2,0,0,1-1.72,1.72Z"/><path class="cls-2" d="M8,52.81a2,2,0,0,1-1.72-1.72V24.51c0-17.81,26.58-17.81,26.58,0V51.09a2,2,0,0,1-1.71,1.71H8Z"/><path class="cls-3" d="M26.48,43.69a1.72,1.72,0,1,0,1.71,1.71A1.71,1.71,0,0,0,26.48,43.69Z"/><path class="cls-1" d="M12.24,51.09H26.86a.84.84,0,0,1,.84.84v1.76a.83.83,0,0,1-.83.83H12.24a.84.84,0,0,1-.84-.84V51.92A.83.83,0,0,1,12.24,51.09Z"/><path class="cls-4" d="M31.45,25.26c0,7.38-5.6,14.49-15.7,14.49-7.37,0-8.46-16.8-8.46-24.17A17.27,17.27,0,0,1,18.1,11.91,13.35,13.35,0,0,1,31.45,25.26Z"/><circle class="cls-5" cx="15.12" cy="26.39" r="13.35"/><path class="cls-6" d="M27,26.39A11.87,11.87,0,1,1,15.12,14.52,11.87,11.87,0,0,1,27,26.39Z"/><circle class="cls-4" cx="15.12" cy="26.39" r="9.64"/><circle class="cls-6" cx="15.12" cy="26.39" r="5.19"/><g class="cls-7"><path class="cls-8" d="M22.21,22.28a3,3,0,1,1-3-3A3,3,0,0,1,22.21,22.28Z"/></g><g class="cls-7"><circle class="cls-8" cx="13.26" cy="28.25" r="1.85"/></g><g class="cls-7"><path class="cls-8" d="M9.92,30.44a1.15,1.15,0,1,1-1.14,1.15A1.14,1.14,0,0,1,9.92,30.44Z"/></g><path class="cls-4" d="M50.18,21a3,3,0,0,1-1.82,3c-1.22.34-2.35-.8-2.35-2.59s1.13-3.14,2.35-3C49.42,18.44,50.18,19.62,50.18,21Z"/><path class="cls-4" d="M44.57,23.55c0,.58-.69,1.21-1.61,1.42s-1.89-.11-1.89-.79S42,22.84,43,22.71,44.57,23,44.57,23.55Z"/><path class="cls-4" d="M44.44,20.58c0,.58-.69,1.21-1.61,1.43s-1.89-.11-1.89-.79.89-1.35,1.89-1.48S44.44,20,44.44,20.58Z"/><polygon class="cls-4" points="36.5 28.26 50.42 24.36 50.42 33.59 36.5 28.26"/><path class="cls-2" d="M37.36,51.41a.83.83,0,0,1-.85-.81V28.21a.83.83,0,0,1,.85-.81h20c6.5,0,6.5,24,0,24Z"/><path class="cls-2" d="M33.94,31.69a.78.78,0,0,1,.77-.78h1a.77.77,0,0,1,.77.78V47.2a.77.77,0,0,1-.77.78h-1a.78.78,0,0,1-.77-.78V31.69Z"/><rect class="cls-9" x="38.23" y="29.11" width="19.72" height="20.58"/></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1{fill:#7a8084}.cls-2{fill:#93979a}.cls-4{fill:#3f4347}.cls-6{fill:#202527}.cls-7{opacity:.5;isolation:isolate}.cls-8{fill:#f4f5f5}
+    </style>
+  </defs>
+  <path class="cls-1" d="M31 53L17 11s34-8 34 10v26a2 2 0 0 1-1 2z"/>
+  <path class="cls-2" d="M8 53a2 2 0 0 1-2-2V25C6 7 33 7 33 25v26a2 2 0 0 1-2 2H8z"/>
+  <path d="M26 44a2 2 0 1 0 2 1 2 2 0 0 0-2-1z" fill="#ef5b7a"/>
+  <path class="cls-1" d="M12 51h15a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H12a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1z"/>
+  <path class="cls-4" d="M31 25c0 8-5 15-15 15-8 0-9-17-9-24a17 17 0 0 1 11-4 13 13 0 0 1 13 13z"/>
+  <circle cx="15" cy="26" r="13" fill="#788187"/>
+  <path class="cls-6" d="M27 26a12 12 0 1 1-12-11 12 12 0 0 1 12 11z"/>
+  <circle class="cls-4" cx="15" cy="26" r="10"/>
+  <circle class="cls-6" cx="15" cy="26" r="5"/>
+  <g class="cls-7">
+    <path class="cls-8" d="M22 22a3 3 0 1 1-3-3 3 3 0 0 1 3 3z"/>
+  </g>
+  <g class="cls-7">
+    <circle class="cls-8" cx="13" cy="28" r="2"/>
+  </g>
+  <g class="cls-7">
+    <path class="cls-8" d="M10 30a1 1 0 1 1-1 2 1 1 0 0 1 1-2z"/>
+  </g>
+  <path class="cls-4" d="M50 21a3 3 0 0 1-2 3c-1 0-2-1-2-3s1-3 2-3l2 3zM45 24l-2 1-2-1 2-1 2 1zM44 21l-1 1-2-1 2-1 1 1zM37 28l13-4v10l-13-6z"/>
+  <path class="cls-2" d="M37 51V28a1 1 0 0 1 0-1h20c7 0 7 24 0 24zM34 32a1 1 0 0 1 1-1h1a1 1 0 0 1 0 1v15a1 1 0 0 1 0 1h-1a1 1 0 0 1-1-1V32z"/>
+  <path fill="#67c2e7" d="M38 29h20v21H38z"/>
+</svg>
