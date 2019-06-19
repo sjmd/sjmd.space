@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8f9e41d8-316b-4f7d-b9da-2c7967c9c3e0/deploy-status)](https://app.netlify.com/sites/sjmd-space/deploys)
+
 # Social Justice, Minus Dogma Online Course + Community
 
 This repo powers the landing page for the SJMD Course + Community.
