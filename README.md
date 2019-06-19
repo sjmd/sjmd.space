@@ -1,6 +1,6 @@
 # Social Justice, Minus Dogma Online Course + Community
 
-This repo poweres the landing page for the SJMD Course + Community.
+This repo powers the landing page for the SJMD Course + Community.
 
 ## Hugo
 
