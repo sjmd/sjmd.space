@@ -122,7 +122,7 @@ a {
   color: #67C2E7; }
 
 .blue-700 {
-  color: #2690BA; }
+  color: #20799D; }
 
 .blue-900 {
   color: #02131A; }
@@ -2083,7 +2083,7 @@ label {
   text-decoration: none;
   -webkit-transition: all 150ms ease;
   transition: all 150ms ease;
-  color: #2690BA; }
+  color: #20799D; }
 
 .link:link,
 .link:visited {
@@ -4409,7 +4409,7 @@ input:focus, textarea:focus, a:focus, button:focus {
   border: 4px dashed #67C2E7;
   text-decoration: none;
   font-weight: 800;
-  color: #2690BA;
+  color: #20799D;
   text-align: center;
   -webkit-transition: all 150ms ease;
   transition: all 150ms ease;
@@ -4551,9 +4551,9 @@ svg {
 
 .hover-link:hover:before,
 .hover-link:focus:before {
-  background-color: #2690BA;
-  -webkit-box-shadow: 0px 0px 0px 1em #2690BA;
-  box-shadow: 0px 0px 0px 1em #2690BA; }
+  background-color: #20799D;
+  -webkit-box-shadow: 0px 0px 0px 1em #20799D;
+  box-shadow: 0px 0px 0px 1em #20799D; }
 
 .hover-link:hover:after,
 .hover-link:focus:after {
@@ -4686,7 +4686,7 @@ svg {
 
 .course-overview-item {
   z-index: 10;
-  margin-right: -10vw;
+  margin-right: calc(-10vw - 2px);
   margin-top: 8em;
   margin-bottom: 8em; }
 
@@ -4743,7 +4743,7 @@ svg {
   border: 3px dashed #67C2E7;
   padding: 2.5em 2em;
   border-radius: 1.5em;
-  color: #2690BA;
+  color: #20799D;
   font-weight: 800; }
 
 /* JOIN STYLES */
@@ -4801,8 +4801,8 @@ svg {
   border-radius: .2em;
   margin: .1em;
   min-width: 40px;
-  -webkit-box-shadow: inset 0px -0.1em #2690BA;
-  box-shadow: inset 0px -0.1em #2690BA;
+  -webkit-box-shadow: inset 0px -0.1em #20799D;
+  box-shadow: inset 0px -0.1em #20799D;
   -webkit-transition: ease-out .1s;
   transition: ease-out .1s;
   font-size: calc(12px + 0.5vw); }
