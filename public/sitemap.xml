@@ -3,18 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/brewing-chemex/</loc>
-    <lastmod>2017-01-04T15:04:10+00:00</lastmod>
+    <loc>/news/</loc>
+    <lastmod>2019-06-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/jamaica-blue/</loc>
-    <lastmod>2017-01-04T15:04:10+00:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2019-06-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/making-sense/</loc>
-    <lastmod>2016-12-17T15:04:10+00:00</lastmod>
+    <loc>/news/we-are-live/</loc>
+    <lastmod>2019-06-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -23,18 +23,11 @@
   </url>
   
   <url>
+    <loc>/help/</loc>
+  </url>
+  
+  <url>
     <loc>/join/</loc>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2017-01-04T15:04:10+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2017-01-04T15:04:10+00:00</lastmod>
   </url>
   
   <url>
