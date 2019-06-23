@@ -38,7 +38,7 @@
 
 	/* Links */
 	& a {
-		color: var(--primary);
+		color: var(--blue-700);
 		transition: var(--hover-transition);
 		&:hover {
 			background-color: var(--highlight);
@@ -66,6 +66,10 @@
 			left: -1.33rem;
 			position: absolute;
 			color: var(--primary);
+		}
+
+		& > li + li {
+			margin-top: 1em;
 		}
 	}
 

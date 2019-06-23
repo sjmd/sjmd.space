@@ -7,17 +7,17 @@
         <h2 class="f4 f3-m f2-l lh-solid mb7 mb5-m">Get started <strong>in 3 steps.</strong></h2>
         <p class="center relative pl4 mb4">
             <strong class="f3 f2-m lh-solid w-10 tc absolute top-0 left--2 blue-500">1.</strong>
-            <strong class="f5 f4-m lh-solid">Make sure you're ready to dive in.</strong><br/>  We will do everything we can to welcome you and make this a meaningful, powerful experience, but we need your help. This isn't your standard online course, it's <a class="link" href="{{ .Site.BaseURL }}#not-for-everyone" title="Ready about how this is not for everyone">not for everyone</a>, and getting acquainted with <a  class="link" href="{{ .Site.BaseURL }}#how-it-works" title="Ready about how it works">how it works</a> will help ease your transition.
+            <strong class="f5 f4-m db lh-solid">Make sure you're ready to dive in.</strong><br/>  We will do everything we can to welcome you and make this a meaningful, powerful experience, but we need your help. This isn't your standard online course, it's <a class="link" href="{{ .Site.BaseURL }}#not-for-everyone" title="Ready about how this is not for everyone">not for everyone</a>, and getting acquainted with <a  class="link" href="{{ .Site.BaseURL }}#how-it-works" title="Ready about how it works">how it works</a> will help ease your transition.
         </p>
 
         <p class="center relative pl4 mb4">
             <strong class="f3 f2-m lh-solid w-10 tc absolute top-0 left--2 blue-500">2.</strong>
-            <strong class="f5 f4-m lh-solid">Choose the tuition amount that is right for you.</strong><br/> You'll be charged the amount you select once a week for six weeks total (at which point payments will automatically stop). If you want guidance, here's our suggestion: choose a value that feels like a commitment, but also amounts to a total you can comfortably afford.
+            <strong class="f5 f4-m db lh-solid">Choose the tuition amount that is right for you.</strong><br/> You'll be charged the amount you select once a week for six weeks total (at which point payments will automatically stop). If you want guidance, here's our suggestion: choose a value that feels like a commitment, but also amounts to a total you can comfortably afford.
         </p>
 
         <p class="center relative pl4 mb4">
             <strong class="f3 f2-m lh-solid w-10 tc absolute top-0 left--2 blue-500">3.</strong>
-            <strong class="f5 f4-m lh-solid">Create an account and start participating.</strong><br/> The same account (email address + password) will be used to access the Course and the Community. Your full name and email will be securely protected and not shared within the community.
+            <strong class="f5 f4-m db lh-solid">Create an account and start participating.</strong><br/> The same account (email address + password) will be used to access the Course and the Community. Your full name and email will be securely protected and not shared within the community.
         </p>
 
         <p class="center tc">
@@ -30,13 +30,13 @@
     <div class="hero-image bg-blue-100 pa4">
         <h2 class="f4 f3-m f2-l lh-solid mb3">Choose Your <strong>Weekly Tuition</strong></h2>
         <ul class="tuition-options">
-            <li class="tuition-option">
+            <!-- <li class="tuition-option">
                 <a class="tuition-button">Coming Soon.</a>
             </li>
             <li class="tuition-option pa2">
                 <a href="https://mailchi.mp/970acc41bb9c/social-justice-minus-dogma" title="Join the mailing list">Join the Mailing List</a>
-            </li>
-            <!-- <li class="tuition-option more-options">
+            </li> -->
+            <li class="tuition-option more-options">
                 <a class="tuition-button" href="https://sjmd.memberful.com/checkout?plan=37162" title="Pay $1 per week">$1</a>
             </li>
             <li class="tuition-option more-options">
@@ -62,10 +62,18 @@
             </li>
             <li class="tuition-option more-options">
                 <a class="tuition-button" href="https://sjmd.memberful.com/checkout?plan=38002" title="Pay $100 per week">$100</a>
-            </li> -->
+            </li>
         </ul>
     </div>
-    <!-- <button id="show-more-options" class="f6" onclick="showMoreTuitionOptions()">More Options</button><button id="pay-more" class="dn f6">I want to pay more.</button><button id="pay-less" class="dn f6">I want to pay less.</button> -->
+    <button id="show-more-options" class="f6 pa1" onclick="showMoreTuitionOptions()">More Options</button>
+
+    <a href="/pay-more" id="pay-more" target="_blank" class="dn pa1 f6">
+        I want to pay more.
+    </a>
+
+    <a href="/cannot-pay" id="pay-less" target="_blank" class="dn pa1 f6">
+        I cannot pay, but want to participate.
+    </a>
 </section>
 
 
@@ -103,6 +111,8 @@
     button.classList.add("dn");
     lessButton.classList.remove("dn");
     moreButton.classList.remove("dn");
+    lessButton.classList.add("dib");
+    moreButton.classList.add("dib");
   }
 
 </script>
