@@ -4063,7 +4063,7 @@ sup {
 
 /* Measure is limited to ~80 characters */
 .measure-wide {
-  max-width: 34em; }
+  max-width: 38em; }
 
 /* Measure is limited to ~45 characters */
 .measure-narrow {
@@ -4089,7 +4089,7 @@ sup {
   .measure-ns {
     max-width: 30em; }
   .measure-wide-ns {
-    max-width: 34em; }
+    max-width: 38em; }
   .measure-narrow-ns {
     max-width: 20em; }
   .indent-ns {
@@ -4108,7 +4108,7 @@ sup {
   .measure-m {
     max-width: 30em; }
   .measure-wide-m {
-    max-width: 34em; }
+    max-width: 38em; }
   .measure-narrow-m {
     max-width: 20em; }
   .indent-m {
@@ -4127,7 +4127,7 @@ sup {
   .measure-l {
     max-width: 30em; }
   .measure-wide-l {
-    max-width: 34em; }
+    max-width: 38em; }
   .measure-narrow-l {
     max-width: 20em; }
   .indent-l {
@@ -4477,7 +4477,7 @@ svg {
     transition: var(--hover-transition); }
     .cms a:hover {
       background-color: var(--highlight);
-      color: var(--primary); }
+      color: var(--black); }
   .cms ul, .cms ol, .cms li {
     position: relative; }
   .cms ul, .cms ol {
@@ -4491,6 +4491,8 @@ svg {
       left: -1.33rem;
       position: absolute;
       color: var(--primary); }
+    .cms ul > li + li {
+      margin-top: 1em; }
   .cms ol {
     list-style: none;
     margin-left: var(--spacing-medium);
