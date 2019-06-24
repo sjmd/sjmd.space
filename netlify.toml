@@ -3,3 +3,9 @@
 	to = "https://www.sjmd.space/:splat"
 	status = 301
 	force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+	from = "https://sjmd.space/*"
+	to = "https://www.sjmd.space/:splat"
+	status = 301
+	force = true #COMMENT: ensure that we always redirect
