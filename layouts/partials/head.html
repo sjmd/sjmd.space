@@ -1,13 +1,13 @@
 <head>
 
-	<title>{{ .Title }} ⚖️🚫📜 SJMD</title>
+	<title>{{ .Title }}{{ if not .IsHome }} ⚖️ #SJMD 🚫{{end}}</title>
 	<link rel="stylesheet" href="/css/main-dist.css" />
 
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="article:author" content="Sam Killermann">
-	<meta property="description" content="{{- if .Params.description }}{{ . }}{{ else }}Facilitated by Sam Killermann, charting a path toward equity.{{ end -}}">
+	<meta property="description" content="{{- if .Params.description }}{{ . }}{{ else }}Started by Sam Killermann, charting a path toward equity.{{ end -}}">
 
 	<!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
@@ -27,7 +27,7 @@
 	<!-- Open Graph -->
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="Social Justice, Minus Dogma">
-	<meta property="og:description" content="A six-week online course + community charting a path toward equity.">
+	<meta property="og:description" content="A six-week online course + community charting a path toward equity. Started by Sam Killermann. Led by you.">
 	<meta property="og:url" content="https://www.sjmd.space{{ .Permalink }}">
 	<meta property="og:image" content="https://www.sjmd.space/img/og-image.png">
 
