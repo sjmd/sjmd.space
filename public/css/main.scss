@@ -483,23 +483,23 @@
     }
 
     .sticker-top-left {
-        left: -1em;
-        top: -1em;
+        right: 100%;
+        bottom: 100%;
     }
 
     .sticker-bottom-left {
-        left: -1em;
-        bottom: -1em;
+        right: 100%;
+        top: 100%;
     }
 
     .sticker-bottom-right {
-        right: -1em;
-        bottom: -1em;
+        left: 100%;
+        top: 100%;
     }
 
     .sticker-top-right {
-        right: -1em;
-        top: -1em;
+        left: 100%;
+        bottom: 100%;
     }
 
     #about-sK .sticker.icon {

@@ -4063,7 +4063,7 @@ sup {
 
 /* Measure is limited to ~80 characters */
 .measure-wide {
-  max-width: 34em; }
+  max-width: 38em; }
 
 /* Measure is limited to ~45 characters */
 .measure-narrow {
@@ -4089,7 +4089,7 @@ sup {
   .measure-ns {
     max-width: 30em; }
   .measure-wide-ns {
-    max-width: 34em; }
+    max-width: 38em; }
   .measure-narrow-ns {
     max-width: 20em; }
   .indent-ns {
@@ -4108,7 +4108,7 @@ sup {
   .measure-m {
     max-width: 30em; }
   .measure-wide-m {
-    max-width: 34em; }
+    max-width: 38em; }
   .measure-narrow-m {
     max-width: 20em; }
   .indent-m {
@@ -4127,7 +4127,7 @@ sup {
   .measure-l {
     max-width: 30em; }
   .measure-wide-l {
-    max-width: 34em; }
+    max-width: 38em; }
   .measure-narrow-l {
     max-width: 20em; }
   .indent-l {
@@ -4445,23 +4445,33 @@ svg {
   max-height: 100%; }
 
 .cms {
+  font-size: 18px;
   /* Headings */
   /* Images */
   /* Links */
   /* Lists */
   /* Blockquotes */ }
+  @media only screen and (min-width: 1360px) {
+    .cms {
+      font-size: 21px; } }
   .cms h1, .cms h2, .cms h3, .cms h4, .cms h5, .cms h6 {
     font-weight: var(--bold-font-weight);
     line-height: 1.25;
-    margin-bottom: var(--spacing-small); }
+    margin-bottom: 1rem;
+    margin-top: var(--spacing-medium); }
   .cms h1 {
-    font-size: 2.25rem; }
+    font-size: 2.25em; }
   .cms h2 {
-    font-size: 1.5rem; }
+    font-size: 1.5em; }
   .cms h3 {
-    font-size: 1.25rem; }
+    font-size: 1.25em; }
   .cms h4 {
-    font-size: 1rem; }
+    font-size: 1em; }
+  .cms p {
+    margin: 0;
+    max-width: none; }
+    .cms p + p {
+      margin-top: 1rem; }
   .cms h5 {
     font-size: .875rem; }
   .cms img {
@@ -4477,7 +4487,7 @@ svg {
     transition: var(--hover-transition); }
     .cms a:hover {
       background-color: var(--highlight);
-      color: var(--primary); }
+      color: var(--black); }
   .cms ul, .cms ol, .cms li {
     position: relative; }
   .cms ul, .cms ol {
@@ -4491,6 +4501,8 @@ svg {
       left: -1.33rem;
       position: absolute;
       color: var(--primary); }
+    .cms ul > li + li {
+      margin-top: 1em; }
   .cms ol {
     list-style: none;
     margin-left: var(--spacing-medium);
@@ -4897,17 +4909,17 @@ svg {
   .sticker {
     position: absolute; }
   .sticker-top-left {
-    left: -1em;
-    top: -1em; }
+    right: 100%;
+    bottom: 100%; }
   .sticker-bottom-left {
-    left: -1em;
-    bottom: -1em; }
+    right: 100%;
+    top: 100%; }
   .sticker-bottom-right {
-    right: -1em;
-    bottom: -1em; }
+    left: 100%;
+    top: 100%; }
   .sticker-top-right {
-    right: -1em;
-    top: -1em; }
+    left: 100%;
+    bottom: 100%; }
   #about-sK .sticker.icon {
     width: 1.5em;
     height: 1.5em; }

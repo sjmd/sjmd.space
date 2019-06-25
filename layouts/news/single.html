@@ -1,14 +1,13 @@
 {{ define "main" }}
-  <div class="mw7 center ph3 pv4">
-    <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
-    <div class="flex justify-between grey-3">
-      <p>{{ .Date.Format "Jan 2, 2006" }}</p>
-      <p>Read in {{ .ReadingTime }} minutes</p>
+  <main class="mw7 mw6 center ph3 pv4">
+    <h1 class="f2 f1-ns lh-title b mb2">{{.Title}}</h1>
+    <div class="grey-3 mb2 f6">
+      {{ if .Params.author }}By <span class="post-author">{{ .Params.author }}</span> on {{end}}<span class="post-date">{{ .Date.Format "Jan 2, 2006" }}</span> | <span class="post-reading-time">Read in {{ .ReadingTime }} mins</span>
     </div>
-    <div class="cms mw6">
+    <div class="cms">
       <p>{{ .Description }}</p>
       {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
       {{ .Content }}
     </div>
-  </div>
+  </main>
 {{ end }}

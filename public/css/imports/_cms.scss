@@ -1,26 +1,41 @@
 .cms {
+	font-size: 18px;
+
+	@media only screen and (min-width: $breakpoint-large) {
+		font-size: 21px;
+	}
 
 	/* Headings */
 	& h1, & h2, & h3, & h4, & h5, & h6 {
 		font-weight: var(--bold-font-weight);
 		line-height: 1.25;
-    	margin-bottom: var(--spacing-small);
+    	margin-bottom: 1rem;
+		margin-top: var(--spacing-medium);
   }
 
   & h1 {
-    font-size: 2.25rem;
+    font-size: 2.25em;
   }
 
   & h2 {
-    font-size: 1.5rem;
+    font-size: 1.5em;
   }
 
   & h3 {
-    font-size: 1.25rem;
+    font-size: 1.25em;
   }
 
   & h4 {
-    font-size: 1rem;;
+    font-size: 1em;;
+  }
+
+  p {
+	  margin: 0;
+	  max-width: none;
+
+	  & + p {
+		  margin-top: 1rem;
+	  }
   }
 
   & h5 {
