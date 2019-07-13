@@ -11,8 +11,8 @@
          "@id": "{{ .Site.BaseURL }}"
     },
     "articleSection" : "{{ .Section }}",
-    "name" : "{{ .Title }}",
-    "headline" : "{{ .Title }}",
+    "name" : "{{ .Title | safeJS }}",
+    "headline" : "{{ .Title | safeJS }}",
     "description" : "{{ if .Params.description }}{{ .Params.description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ .Site.Params.description}}{{ end }}{{ end }}",
     "inLanguage" : "en-US",
 
