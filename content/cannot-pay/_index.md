@@ -1,22 +1,22 @@
 ---
-title: "I cannot pay for the course, but I want to participate."
+title: "I cannot pay, but I want to participate."
 ---
 
-**Yes.** Absolutely. We do not want money, or not having a credit card, to be a barrier preventing anyone from joining the Course and Community.
+**Yes.** Absolutely. We do not want money, or not having a credit card, to be a barrier preventing anyone from joining the Community.
 
 In fact, we would have had a $0 option directly on the sign up page if our Membership software supported it.
 
 If you want to participate without paying, **the only thing we need you to do is prove to us that you're you.**
 
-While the members of the course will remain anonymous to one another, we need to verify that only real humans are signing up for the course, and that a person can only enroll once -- we do this as a safety measure.
+While the members of the Community will remain anonymous to one another, we need to verify that only real humans are signing up, and that a person can only enroll once -- we do this as a safety measure for everyone else.
 
 So, here's what we ask you to do to verify who you are:
 
-- Email [team@sjmd.space](mailto:team@sjmd.space?subject=Verifying%20Identity%20to%20Join%20Course) from your personal email address
-- Make the subject "Verifying Identity to Join Course"
+- Email [team@sjmd.space](mailto:team@sjmd.space?subject=Verifying%20Identity%20to%20Join%20Community) from your personal email address
+- Make the subject "Verifying Identity to Join Community"
 - If your name isn't attached to your email account, tell us your name
 - Include a link to as many active social media profiles as you have under your name (e.g., your Facebook profile, Twitter, Instagram, as long as those accounts aren't anonymous)
-- To prove that you're the owner of those accounts, make a public post on one of them that includes the hashtag "#sjmd" or mentions that you're trying to join the course (it's okay if you delete this after we've verified you!)
+- To prove that you're the owner of those accounts, make a public post on one of them that includes the hashtag "#sjmd" or mentions that you're trying to join the community (it's okay if you delete this after we've verified you!)
 - Finally, link us to that post
 
 
