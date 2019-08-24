@@ -248,7 +248,99 @@
     }
 }
 
-/* JOIN STYLES */
+/* NOT FOR EVERYONE STYLES */
+
+.iMessage {
+    position: relative;
+    background: #0c83fe;
+    color: white;
+    padding: 1em 1.4em;
+    line-height: 1.2;
+    margin: 1em 0 1em auto;
+    display: inline-block;
+    font-weight: 500;
+    border-radius: 2em;
+    margin-right: 2.4em;
+    text-align:left;
+}
+
+    .iMessage:after {
+        content: '';
+        background-image:url('../img/message-arrow.svg');
+        background-size: contain;
+        width: 1.4em;
+        height: 2em;
+        position: absolute;
+        bottom: 0;
+        right: -.61em;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+    }
+
+    .iMessage:before {
+        content: '!';
+        width: 1.2em;
+        height: 1.2em;
+        display:block;
+        font-weight: 700;
+        border: 2px solid #ff2500;
+        color: #ff2500;
+        text-align: center;
+        border-radius: 100px;
+        padding: .1em;
+        line-height: 1.2;
+        position: absolute;
+        right: -2.4em;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+/* COMPARE STYLES */
+
+.comparison {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: calc(.75em + .75vw);
+
+    & td, & th {
+        empty-cells: show;
+    }
+
+    th {
+        position: sticky;
+        background: white;
+        top: 0;
+        padding-bottom:.5rem;
+    }
+
+    td {
+        min-width: 4rem;
+        padding: 1vw;
+        line-height: 1.2;
+    }
+
+    .compare-row {
+        background:#F0F5F7;
+    }
+
+    .compare-row:nth-of-type(even){
+        background: white;
+    }
+
+    tr td {
+        text-align:center;
+        vertical-align: middle;
+    }
+
+    tr td:first-child {
+        text-align:left;
+        padding:3vw 0 3vw 3vw;
+    }
+   
+}
+
+
 
 /* JOIN STYLES */
 
