@@ -1,12 +1,10 @@
 ---
-title: "Pay More for the Course"
+title: "Pay More for the Community"
 ---
 First, let us say **thank you** for the generosity expressed by just clicking the link to learn about paying more.
 
-With that said, we hope you won't feel dismayed that **we are not currently allowing for learners to pay more than $100/week.**
+With that said, we hope you won't feel dismayed that **we are not currently allowing for community members to pay more than $100/Month.** We just don't want to create room for that big of a disparity between those who are giving little, and those of you who are giving a lot.
 
-However, if, after you've completed the course, you feel compelled by gratitude to contribute more, you'll be able to do so -- both as a one-time contribution, as well as on an ongoing basis for membership in the community.
+So, for now, we just ask that you enroll at one of the levels available on the [Join Page](https://sjmd.space/join/#sign-up), and focus on making the most out of the community -- learning, teaching, sharing your perspective, and helping to facilitate conversations with others.
 
-So, for now, we just ask that you enroll at one of the levels available on the [Join Page](https://sjmd.space/join/#sign-up), and focus on making the most out of the course -- learning, teaching, and applying the lessons in your social justice work.
-
-Then, when the time comes, if you're still feeling generous, you can send more dollars our way.
+That will go a long way.
