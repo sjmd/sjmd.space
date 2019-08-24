@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Social Justice, Minus Dogma Online Course + Community"
+title = "Social Justice, Minus Dogma: Online Course, Community, & Hub for Living Social Justice"
 
 [params]
-	description = "A six-week online course + community charting a path toward equity. Started by Sam Killermann. Led by you."
+	description = "A six-week online course + online community + resource hub charting a path toward equity. Started by Sam Killermann. Led by you."
 	images = ["img/og-image.jpg"]
