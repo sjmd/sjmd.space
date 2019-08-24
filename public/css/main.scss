@@ -204,6 +204,13 @@
     transform: translate(-2px 0);
 }
 
+/* SJMD Links */
+
+#sjmd-links.dashed-path:before {
+    height: 100%;
+    top: 0;
+}
+
 /* SJD Definition */
 
 #what-is-social-justice-dogma {
@@ -407,12 +414,38 @@
         box-shadow: inset 0px 0px .1em rgba(0,0,0,.3);
     }
 
+.placeholder {
+    border: 3px dashed var(--blue-500);
+    padding: 2.5em 2em;
+    border-radius: 1.5em;
+    color: var(--blue-700);
+    font-weight: 800;
+}
+
 @media only screen and (min-width: $breakpoint-not-small) {
 
 }
 
 @media only screen and (min-width: $breakpoint-medium) {
 
+    #course-link, #community-link {
+
+        overflow: visible;
+
+        &:after {
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: calc(100% + 2vw);
+            width: 4vw;
+            text-align: center;
+            transform: translate(-50%, -50%);
+            content: '+';
+            font-size: 3vw;
+            color: var(--blue-500);
+            font-weight: 700;
+        }
+    }
     .sticker {
         position: absolute;
     }
