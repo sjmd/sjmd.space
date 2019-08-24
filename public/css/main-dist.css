@@ -4762,7 +4762,8 @@ svg {
     position: sticky;
     background: white;
     top: 0;
-    padding-bottom: .5rem; }
+    padding-bottom: .5rem;
+    padding-top: .5rem; }
   .comparison td {
     min-width: 4rem;
     padding: 1vw;
