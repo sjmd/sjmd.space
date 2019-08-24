@@ -1,4 +1,4 @@
 ---
-title: "Social Justice, Minus Dogma Online Course + Community"
-subtitle: Facilitated by Sam Killermann. Led by you.
+title: "Social Justice, Minus Dogma Online Hub, Course, & Community"
+subtitle: Started by Sam Killermann. Led by you.
 ---

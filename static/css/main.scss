@@ -125,28 +125,6 @@
     content: attr(title) " →";
 }
 
-.blur-bg {
-    position: relative;
-}
-
-.blur-bg:before {
-    display:block;
-    z-index: -2;
-    content: '';
-    position:absolute;
-    height: 100%;
-    width: 100%;
-    border-radius: 2vw;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(255,255,255,.85);
-    box-shadow: 0px 0px 2em 2em rgba(255,255,255,.85);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-}
-
 .highlight-bg {
     position: relative;
     display: inline-block;
@@ -182,45 +160,11 @@
     transform: rotate(15deg);
 }
 
-/* NAV STYLES */
-
-#main-nav {
-    width: 100%;
-    height: 50px;
-    bottom:-50px;
-    position: fixed;
-    transition: bottom 0.2s ease-in-out;
-    z-index: 9999;
-    overflow: hidden;
-    font-size: 14px;
-    font-weight: 500;
-    background: black;
-}
-
-    #main-nav.header-unpin{
-      /* display: none; */
-      bottom: -50px;
-    }
-
-    #main-nav.header-pin{
-      /* display: block; */
-      bottom: 0;
-    }
-
-#main-nav .btn {
-    padding: 0 1em;
-    height: 40px;
-    font-size: 14px;
-    line-height: 40px;
-    border: none;
-    margin: 5px;
-}
-
-
 /* HOME STYLES */
 
 .hero {
     max-width: 1600px;
+    min-height: 100vh;
 }
 
 .hero-image {
@@ -229,6 +173,14 @@
     height: auto;
     display:block;
     border-radius: var(--border-radius);
+}
+
+.rounded {
+    border-radius: var(--border-radius);
+}
+
+.mask-bg-white {
+    background: rgba(255,255,255,.9);
 }
 
 .hero .secondary {
@@ -252,88 +204,51 @@
     transform: translate(-2px 0);
 }
 
-#course-overview {
-    border-right: dashed 5px var(--blue-500);
-}
+/* SJD Definition */
 
-    #course-overview .primary {
-        margin-left: auto;
-        margin-right: -10vw;
+#what-is-social-justice-dogma {
+    .serif {
+        border-left: 5px dashed var(--blue-500);
     }
 
-    .course-overview-item {
-        z-index: 10;
-        margin-right: calc(-10vw - 2px);
-        margin-top: 8em;
-        margin-bottom: 8em;
-    }
-
-    .course-overview-item .w-10 {
-        width: 10vw;
-    }
-
-#course-details {
-
-}
-    #swirling-line {
-        position:absolute;
-    }
-
-#not-for-everyone {
-}
-
-    .iMessage {
-        position: relative;
-        background: #0c83fe;
-        color: white;
-        padding: 1em 1.4em;
-        line-height: 1.2;
-        margin: 1em 0 1em auto;
-        display: inline-block;
-        font-weight: 500;
-        border-radius: 2em;
-        margin-right: 2.4em;
-        text-align:left;
-    }
-
-        .iMessage:after {
+    .mr0 {
+        
+        &:before {
+            display: block;
             content: '';
-            background-image:url('../img/message-arrow.svg');
-            background-size: contain;
-            width: 1.4em;
-            height: 2em;
             position: absolute;
-            bottom: 0;
-            right: -.61em;
-            background-position: right bottom;
-            background-repeat: no-repeat;
+            width: 30%;
+            height: 3px;
+            right: 105%;
+            top: .5em;
+            border-bottom: 3px dashed var(--blue-500);
         }
+    }
 
-        .iMessage:before {
-            content: '!';
-            width: 1.2em;
-            height: 1.2em;
-            display:block;
-            font-weight: 700;
-            border: 2px solid #ff2500;
-            color: #ff2500;
-            text-align: center;
-            border-radius: 100px;
-            padding: .1em;
-            line-height: 1.2;
-            position: absolute;
-            right: -2.4em;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-
-.placeholder {
-    border: 3px dashed var(--blue-500);
-    padding: 2.5em 2em;
-    border-radius: 1.5em;
-    color: var(--blue-700);
-    font-weight: 800;
+    &:after {
+        clip-path: polygon(0 0, 100% 0, 100% 65%, 0% 100%);
+        background-color: #F0F5F7;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: '';
+        z-index: -1;
+    }
 }
+
+#details {
+    .f3 {
+        margin-top: -.75em;
+    }
+
+    .rounded {
+        max-width: 480px;
+    }
+}
+
+/* JOIN STYLES */
 
 /* JOIN STYLES */
 
@@ -402,81 +317,9 @@
 
 @media only screen and (min-width: $breakpoint-not-small) {
 
-    #tagline:before {
-        transform: rotate(-20deg);
-        left: 45%;
-    }
-
-    #about-sK:before {
-        left: 65%;
-        transform: rotate(20deg);
-    }
-
-    #led-by-you:before {
-        height: 20vw;
-    }
 }
 
 @media only screen and (min-width: $breakpoint-medium) {
-
-    #top:before {
-        left: 244px;
-        bottom: 80%;
-    }
-
-    #tagline:before {
-        transform: rotate(-55deg);
-        left: 13%;
-        bottom: 52%;
-        height: 16vw;
-    }
-
-    #about-sK:before {
-        transform: rotate(45deg);
-        bottom: 75%;
-        left: 60%;
-    }
-
-    #led-by-you:before {
-        height: 10vw;
-        bottom: 75%;
-    }
-
-    #part-reading:before {
-        transform: rotate(35deg);
-        left: 60%;
-        bottom: 80%;
-    }
-
-    #part-listening:before {
-        transform: rotate(-35deg);
-        left: 40%;
-        bottom: 80%;
-    }
-
-    #part-watching:before, #part-teaching:before {
-        height: 8vw;
-    }
-
-    #course-overview .secondary {
-        position: absolute;
-        background:white;
-        border-radius: calc(3vw + 2vw);
-        padding: 2vw;
-        display: inline-block;
-        top:0;
-        right: 0;
-        transform: translate(50%, -50%);
-    }
-
-    #course-overview .primary {
-        position: absolute;
-        right: 0;
-        margin: 0;
-        bottom: -4vw;
-        display: inline-block;
-        transform: translate(50%, -50%);
-    }
 
     .sticker {
         position: absolute;
@@ -502,55 +345,9 @@
         bottom: 100%;
     }
 
-    #about-sK .sticker.icon {
-        width: 1.5em;
-        height: 1.5em;
-    }
-
-    #about-sK .sticker-top-left {
-        left: -1.5em;
-        top: -1.5em;
-    }
 }
 
 @media only screen and (min-width: $breakpoint-large) {
 
-    #tagline:before {
-        transform: rotate(-67deg);
-        left: 0%;
-        bottom: 7%;
-        height: 31vw;
-    }
-
-    #about-sK {
-        bottom: 71%;
-    }
-
-    #part-reading:before {
-        transform: rotate(55deg);
-        bottom: 60%;
-        height: 18vw;
-        left: 90%;
-    }
-
-    #part-listening:before {
-        transform: rotate(25deg);
-        left: 60%;
-        bottom: 60%;
-        height: 12vw;
-    }
-
-    #part-watching:before {
-        transform: rotate(-25deg);
-        left: 40%;
-        bottom: 60%;
-        height: 12vw;
-    }
-
-    #part-teaching:before {
-        transform: rotate(-55deg);
-        bottom: 60%;
-        height: 18vw;
-        left: 10%;
-    }
+   
 }

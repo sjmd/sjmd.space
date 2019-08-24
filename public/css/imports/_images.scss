@@ -3,18 +3,19 @@ img {
 }
 
 .icon {
-    width: 1em;
+    width: auto;
     height: 1em;
+    vertical-align: bottom;
 }
 
     .icon.icon-lg {
         width: 1.5em;
         height: 1.5em;
-        margin-top: -.25em;
+        margin-bottom: -.25em;
     }
 
     .icon.icon-2x {
         width: 2em;
         height: 2em;
-        margin-top: -.5em;
+        margin-bottom: -.5em;
     }

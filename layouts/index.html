@@ -1,83 +1,97 @@
 {{ define "main" }}
-<section class="hero center pt5 pt0-m">
-    <h1 id="top" class="f3 f2-ns f1-m tc tl-m pa4 mb7 mb0-m lh-solid dashed-path">
-        <span class="blur-bg dib relative">
-            <img alt="justice scales icon" src="/img/icons/sjmdicon-justice.svg" alt="Scales of Justice" aria-hidden="true" class="icon tilt-left sticker sticker-top-left">
-            Social Justice,<br/>
-            <strong>Minus Dogma</strong>
-            <img alt="canceled out scroll icon" src="/img/icons/sjmdicon-minus-dogma.svg" aria-hidden="true" class="icon tilt-right sticker sticker-bottom-left">
-        </span>
+<section class="hero flex flex-column justify-around center">
+    <h1 id="top" class="f3 f2-ns f1-m tc mt4 pt2 mb0 lh-solid dashed-path">
+        <img src="/img/icons/sjmdicon-justice.svg" alt="Scales of Justice" aria-hidden="true" class="icon tilt-left">
+        Social Justice, <strong class="dib">Minus Dogma <img src="/img/icons/sjmdicon-minus-dogma.svg" aria-hidden="true" class="icon tilt-right"></strong>
     </h1>
-    <h2 id="tagline" class="f5 f4-ns f2-m pa4 mb7 mb0-m lh-solid tc tr-m mw6-ns mw7-m mla relative dashed-path">
-        <span class="relative blur-bg">An Online Course <img alt="Desktop Computer" src="/img/icons/sjmdicon-desktop.svg" aria-hidden="true" class="icon tilt-left sticker sticker-top-left"> + Community <img alt="Nametag sticker icon" src="/img/icons/sjmdicon-nametag.svg" aria-hidden="true" class="icon tilt-right sticker sticker-top-right"> Charting <strong>a Path Toward <span class="highlight-bg">Equity</span></strong> <img alt="Map icon" src="/img/icons/sjmdicon-map.svg" aria-hidden="true" class="icon tilt-right sticker sticker-bottom-right"></span>
+    <div class="flex-m content-center justify-around pa2">
+        <div class="rounded ma2 w-auto-m overflow-hidden relative">
+            <a href="https://course.sjmd.space" title="SJMD Course" class="db no-underline absolute top-0 left-0 right-0 mask-bg-white pv4 pv2-l tc">
+                <h2 class="f3 f2-l b lh-solid"><img src="/img/icons/sjmdicon-mortar-board.svg" aria-hidden="true" class="icon"> Course</h2>
+            </a>
+            <img class="db w-100 h-auto" src="/img/sjmd-image-course.jpg">
+            <a href="https://gumroad.com/l/sjmdcourse?wanted=true" title="Start the Course" class="btn absolute cta left-2 right-2 bottom-2">
+                Start the Course
+            </a>
+        </div>
+        <div class="rounded ma2 w-auto-m overflow-hidden relative">
+            <a href="https://community.sjmd.space" title="SJMD Community" class="db no-underline absolute top-0 left-0 right-0 mask-bg-white pv4 pv2-l tc">
+                <h2 class="f3 f2-l b lh-solid"><img src="/img/icons/sjmdicon-nametag.svg" aria-hidden="true" class="icon"> Community</h2>
+            </a>
+            <img class="db w-100 h-auto" src="/img/sjmd-image-community.jpg">
+            <a href="https://community.sjmd.space" title="Join the Community" class="btn absolute cta left-2 right-2 bottom-2">
+                Join the Community
+            </a>
+        </div>
+        <div class="rounded ma2 w-auto-m overflow-hidden relative">
+            <a href="https://hub.sjmd.space" title="SJMD Hub" class="db no-underline absolute top-0 left-0 right-0 mask-bg-white pv4 pv2-l tc">
+                <h2 class="f3 f2-l b lh-solid"><img src="/img/icons/sjmdicon-lightbulb.svg" aria-hidden="true" class="icon"> Hub</h2>
+            </a>
+            <img class="db w-100 h-auto" src="/img/sjmd-image-hub.jpg">
+            <a href="https://hub.sjmd.space" title="Browse the Hub" class="btn absolute cta left-2 right-2 bottom-2">
+                Browse the Hub
+            </a>
+        </div>
+    </div>
+    <h3 class="f4 f3-ns f2-l tc mb4">...charting a <strong>path toward <span class="highlight-bg">equity</span>. Together.</strong></h3>
+</section>
+<section id="what-is-social-justice-dogma" class="relative lh-title pa4">
+    <h2 class="f4 f3-ns f2-l mt4 mt2-l">
+        <strong>Social justice dogma?</strong><br/>
+        Here's what we mean:
     </h2>
-    <div id="about-sK" class="center pa4 mb7 mb0-m tc dashed-path">
-        <h2 class="f5 f4-ns f2-m lh-solid">
-            <span class="blur-bg dib"><img src="/img/icons/sam-killermann-headshot-doodle.svg" alt="A cartoon drawing of Sam Killermann" aria-hidden="true" class="icon tilt-left sticker sticker-top-left"> Started by <strong>Sam Killermann</strong></span>
-        </h2>
-        <p class="center f6 f5-m mt2 mw7 mb0 blue-700 blur-bg">
-            (<a class="link" target="_blank" href="https://www.itspronouncedmetrosexual.com" title="It's Pronounced Metrosexual">It’s Pronounced Metrosexual</a>. <a class="link" target="_blank" href="https://www.thesafezoneproject.com" title="The Safe Zone Project">The Safe Zone Project</a>. <a class="link" target="_blank" href="https://www.guidetogender.com" title="A Guide to Gender">A Guide to Gender</a>. <a class="link" target="_blank" href="https://www.facilitationmagic.com" title="Unlocking the Magic of Facilitation">Unlocking the Magic of Facilitation</a>. <a class="link" target="_blank" href="https://www.gum.co/defininglgbtq" title="Defining LGBTQ+: A Guide to Gender & Sexuality Terminology">Defining LGBTQ+</a>. <a class="link" target="_blank" href="https://www.youtube.com/watch?v=NRcPXtqdKjE" title="Understanding the Complexities of Gender TEDxTalk">"Understanding the Complexities of Gender” TEDxTalk</a>. <a class="link" target="_blank" href="https://www.nationalgeographic.com/tv/gender-revolution-a-journey-with-katie-couric/" title="Gender Revolution: A Journey with Katie Couric">“Gender Revolution: A Journey with Katie Couric” NatGeo Doc</a>. Austin Changemaker. YES! Magazine Person We Love. <a class="link" target="_blank" href="https://www.nytimes.com/2015/11/08/style/transgender-restroom-all-gender.html" title="New York Times Article">New York Times’ “Toilet Sign Guy”</a>. <a class="link dib" target="_blank" href="https://www.instagram.com/killermann" title="Sam Killermann's Instagram">Dog mom.</a>)<br/>
-            <img alt="a signature of a doodled heart and little s big K" src="/img/icons/heart-sK.svg" class="f2 icon tilt-right sticker sticker-bottom-right">
-        </p>
-
+    <blockquote class="mt4 mt2-m mb4 pa4 pt5 pb0 serif measure-narrow center f4 f3-ns">
+        The social justice dogma is the set of beliefs, stances, and acceptable actions laid down by the authorities within the social justice movement that we hold as incontrovertibly true.
+    </blockquote>
+    <cite class="w-50 mla mr0 db relative z-2">Definition by <span class="b highlight-bg">Sam Killermann</span> from his 2017 article <a class="blue-700 b" href="https://www.itspronouncedmetrosexual.com/2017/12/introduction-social-justice-dogma/" title="I can’t stop thinking about the Social Justice Dogma or keeping quiet">I can’t stop thinking about the “Social Justice Dogma,” or keeping quiet</a>.</cite>
+</section>
+<section id="details" class="cf mt4">
+    <div class="w-50-m pa4 sticky-m top-0 fl-m">
+        <strong class="f4 f3-ns f2-l lh-title">Social Justice, Minus Dogma <span class="blue-700">is a space for us to question the dogma, investigate the ways we might be creating barriers for ourselves, and explore paths to living social justice.</span></strong>
+    </div>
+    <div class="w-50-m flex flex-column content-center pa4 fl-m">
+        <div class="mt4 mt7-m mla mra rounded bg-blue-100 ph3 pb3">
+            <a href="https://course.sjmd.space" title="SJMD Course" class="db no-underline tc">
+                <h2 class="f3 f2-l b lh-solid mb3"><img src="/img/icons/sjmdicon-mortar-board.svg" aria-hidden="true" class="icon icon-lg"> Course</h2>
+            </a>
+            <h3 class="blue-900 f4 f3-l b lh-solid mb2">6 online modules. Go at your own pace.</h3>
+            <p class="f5 blue-700">Videos, articles, podcasts, and fieldwork that will give you a better understanding of what’s happening in our world, and what you can do about it.</p>
+            <div class="tc">
+                <a href="https://gumroad.com/l/sjmdcourse?wanted=true" title="Start the Course" class="btn w-70 cta mb2">
+                    Start the Course
+                </a><br/>
+                <a href="https://course.sjmd.space" title="Learn more" class="no-underline b f5">Learn More &rarr;</a>
+            </div>
+        </div>
+        <div class="mt4 mt7-m mla mra rounded bg-blue-100 ph3 pb3">
+            <a href="https://community.sjmd.space" title="SJMD Community" class="db no-underline tc">
+                <h2 class="f3 f2-l b lh-solid mb3"><img src="/img/icons/sjmdicon-nametag.svg" aria-hidden="true" class="icon icon-lg"> Community</h2>
+            </a>
+            <h3 class="blue-900 f4 f3-l b lh-solid mb2">Online forum, powered by Discourse.</h3>
+            <p class="f5 blue-700">Exclusively for social justice advocates who need a space to work through issues you aren’t able to address in your IRL communities.</p>
+            <div class="tc">
+                    <a href="https://Community.sjmd.space" title="Join the Community" class="btn w-70 cta mb2">
+                        Join the Community
+                    </a><br/>
+                    <a href="https://Community.sjmd.space" title="Learn more" class="no-underline b f5">Learn More &rarr;</a>
+                </div>
+        </div>
+        <div class="mt4 mt7-m mla mra rounded bg-blue-100 ph3 pb3 mb7">
+            <a href="https://hub.sjmd.space" title="SJMD Hub" class="db no-underline tc">
+                <h2 class="f3 f2-l b lh-solid mb3"><img src="/img/icons/sjmdicon-lightbulb.svg" aria-hidden="true" class="icon icon-lg"> Hub</h2>
+            </a>
+            <h3 class="blue-900 f4 f3-l b lh-solid mb2">Online publication. Read, watch, click, contribute.</h3>
+            <p class="f5 blue-700">Learn about these issues in bite-sized, bit-by-bit ways. Contribute your perspectives, knowledge, concerns, ideas, and solutions.</p>
+            <div class="tc">
+                    <a href="https://hub.sjmd.space" title="Browse the Hub" class="btn w-70 cta mb2">
+                        Browse the Hub
+                    </a><br/>
+                    <a href="https://hub.sjmd.space" title="Learn more" class="no-underline b f5">Learn More &rarr;</a>
+                </div>
+        </div>
     </div>
 </section>
-<section class="hero mb7 mb5-m center" id="how-it-works">
-    <div id="led-by-you" class="center pa3 mw7 tc lh-title dashed-path">
-        <h2 class="f3 f2-ns">
-            <span class="blur-bg dib">Led by <strong>You.</strong> <img alt="megaphone icon" src="/img/icons/sjmdicon-megaphone.svg" alt="Megaphone" aria-hidden="true" class="icon"></span>
-        </h2>
-        <p class="center f5 f4-ns lh-title mw7 mt2 blur-bg">
-            The course materials, syllabus, resources, and topics will be generated in response to what you want, need, and are passionate about learning.
-        </p>
-    </div>
-    <div aria-hidden="true" class="icon-list ph5 ph2-m flex-m content-center justify-center center flex-wrap">
-        <div id="part-reading" class="w-50-m w-25-l pa2 mv2 mb7 mb0-m lh-title tc dashed-path">
-            <h3 class="f4 f3-ns with-icon justify-center blur-bg">
-                <img alt="pages of text icon" src="/img/icons/sjmdicon-reading.svg" aria-hidden="true" class="icon icon-lg icon-left" width="24" height="24">
-                <span>Part <strong>reading.</strong></span>
-            </h3>
-            <p class="f5 mt1 blur-bg center">
-                Lessons, articles, book chapters, essays, and an occasional news clipping
-            </p>
-        </div>
-        <div id="part-listening" class="w-50-m w-25-l pa2 mv2 mb7 mb0-m lh-title tc dashed-path">
-            <h3 class="f4 f3-ns with-icon justify-center blur-bg">
-                <img alt="headphones icon" src="/img/icons/sjmdicon-headphones.svg" aria-hidden="true" class="icon icon-lg icon-left" width="24" height="24">
-                <span>Part <strong>listening.</strong></span>
-            </h3>
-            <p class="f5 mt1 blur-bg center">
-                Podcast episodes, audio snippets, and lecture recordings
-            </p>
-        </div>
-        <div id="part-watching" class="w-50-m w-25-l pa2 mv2 mb7 mb0-m lh-title tc dashed-path">
-            <h3 class="f4 f3-ns with-icon justify-center blur-bg">
-                <img alt="television icon" alt="" src="/img/icons/sjmdicon-tv.svg" aria-hidden="true" class="icon icon-lg icon-left" width="24" height="24">
-                <span>Part <strong>watching.</strong></span>
-            </h3>
-            <p class="f5 mt1 blur-bg center">
-                Explainers, interviews, live-streams, and detailed walkthroughs
-            </p>
-        </div>
-        <div id="part-teaching" class="w-50-m w-25-l pa2 mv2 mb7 mb0-m lh-title tc dashed-path">
-            <h3 class="f4 f3-ns with-icon justify-center blur-bg">
-                <img alt="lightbulb icon" src="/img/icons/sjmdicon-lightbulb.svg" aria-hidden="true" class="icon icon-lg icon-left" width="24" height="24">
-                <span>Part <strong>teaching.</strong></span>
-            </h3>
-            <p class="f5 mt1 blur-bg center">
-                Contribute readings, listenings, & watchings (by suggesting content or creating it)
-            </p>
-        </div>
-    </div><!--/icon-list-->
-    <div class="center pa3 mw7 tc">
-        <h2 class="f3 f2-ns lh-solid blur-bg">
-            <img alt="keyboard icon" src="/img/icons/sjmdicon-keyboard.svg" alt="Keyboard" aria-hidden="true" class="icon"> Powered by <strong>Conversation.</strong>
-        </h2>
-        <p class="center f5 f4-ns lh-title mw7 ma0 mt2 blur-bg">
-            You’ll be able to discuss all of the course content and anything else SJMD-related with other learners (and the facilitators, who are also here to learn!). Real talk, with real people who share your want to live in a socially just world, and are actively seeking the path toward it.
-        </p>
-    </div>
-</section>
+<!--
 <section class="hero w-96 mt3 center relative">
     <a class="hero-image center" href="{{ .Site.BaseURL }}join/#sign-up" title="Join now.">
         <img srcset="/img/stil-unsplash@600px.jpg 600w, /img/stil-unsplash@1200px.jpg 1200w, /img/stil-unsplash.jpg 1600w" src="/img/stil-unsplash.jpg" alt="Person opening notebook in front of laptop" class="hero-image center">
@@ -101,7 +115,6 @@
                 <p class="f5 f4-ns lh-title ma0 mt2">
                     This isn’t a course for online social justice activism. It’s an online course for advancing social justice. In your community. In real life. With real people.
                 </p>
-                <!-- <a class="f5 f4-ns mt2 dib link" href="" title="">Learn more &rarr;</a> -->
             </div>
             <img alt="globe icon" class="w-10" src="/img/icons/sjmdicon-globe.svg" aria-hidden="true" class="icon icon-lg icon-left">
         </article>
@@ -113,7 +126,6 @@
                 <p class="f5 f4-ns lh-title ma0 mt2">
                     Money won’t be a barrier. Like everything else sK does, this course operates in the gift economy, meaning you choose how much (if anything) you pay to participate, based on want, ability, or gratitude.
                 </p>
-                <!-- <a class="f5 f4-ns mt2 dib link" href="" title="">Learn more &rarr;</a> -->
             </div>
             <img alt="gift icon" class="w-10" src="/img/icons/sjmdicon-gift.svg" aria-hidden="true" class="icon icon-lg icon-left">
         </article>
@@ -125,7 +137,6 @@
                 <p class="f5 f4-ns lh-title ma0 mt2">
                     Want to live in a society that is equitable? Willing to step outside the unwritten rules of the Social Justice Dogma? Then we’d love you to join the conversation. We believe everyone has a unique perspective we can all learn from.
                 </p>
-                <!-- <a class="f5 f4-ns mt2 dib link" href="" title="">Learn more &rarr;</a> -->
             </div>
             <img alt="tent icon" class="w-10" src="/img/icons/sjmdicon-tent.svg" aria-hidden="true" class="icon icon-lg icon-left">
         </article>
@@ -403,5 +414,7 @@
     </a>
 
 </section>
+
+-->
 
 {{ end }}
